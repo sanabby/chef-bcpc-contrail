@@ -1,0 +1,5 @@
+bcpc-bootstrap 08:00:27:C0:88:C8 10.0.2.15 - Test-Laptop 
+bcpc-vm1 08:00:27:EF:A4:D5 IP unavailable - has this VM been booted? - Test-Laptop 
+bcpc-vm2 08:00:27:CB:E4:F1 IP unavailable - has this VM been booted? - Test-Laptop 
+bcpc-vm3 08:00:27:55:05:9F IP unavailable - has this VM been booted? - Test-Laptop 
+end

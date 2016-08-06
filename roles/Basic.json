@@ -1,0 +1,18 @@
+{
+    "name": "Basic",
+    "default_attributes": {
+    },
+    "json_class": "Chef::Role",
+    "run_list": [
+      "recipe[ubuntu]",
+      "recipe[bcpc::packages-common]",
+      "recipe[bcpc::packages-debugging]",
+      "recipe[ntp]",
+      "recipe[chef-client::delete_validation]",
+      "recipe[chef-client::config]"
+    ],
+    "description": "Basic server",
+    "chef_type": "role",
+    "override_attributes": {
+    }
+}

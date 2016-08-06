@@ -1,0 +1,15 @@
+# Put files/directories that should be ignored in this file.
+# Lines that start with '# ' are comments.
+
+# emacs
+*~
+
+# vim
+*.sw[a-z]
+
+# Binary files from build_bins.sh
+#cookbooks/bcpc/files/default/bins/**
+*chef-server.deb
+*chef-client.deb
+*.box
+*.vdi

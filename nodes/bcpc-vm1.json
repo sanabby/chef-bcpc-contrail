@@ -1,0 +1,19 @@
+{
+    "chef_environment": "Test-Laptop",
+    "bcpc": {
+        "node_number": "11",
+        "rack_name": "rack1",
+        "management": {
+            "ip" : "10.0.100.11"
+        },
+        "storage": {
+            "ip" : "172.16.100.11"
+        },
+        "floating": {
+            "ip" : "192.168.100.11"
+        }
+    },
+    "run_list": [
+        "role[BCPC-Headnode]"
+    ]
+}
